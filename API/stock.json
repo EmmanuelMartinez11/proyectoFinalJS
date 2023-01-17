@@ -1,0 +1,10 @@
+[
+    {"id": 1, "nombre": "Mouse", "tipo": "Periférico", "precio": 1200, "cantidad": 1, "imagen": "./public/assets/images/pc.jpg", "descripcion": "Poner algo"},
+    {"id": 2, "nombre": "Teclado", "tipo": "Periférico", "precio": 1500, "cantidad": 1, "imagen": "./public/assets/images/pc.jpg", "descripcion": "Poner algo"},
+    {"id": 3, "nombre": "Auriculares", "tipo": "Periférico", "precio": 2500, "cantidad": 1, "imagen": "./public/assets/images/pc.jpg", "descripcion": "Poner algo"},
+    {"id": 4, "nombre": "Placa madre", "tipo": "Componente", "precio": 40000, "cantidad": 1, "imagen": "./public/assets/images/pc.jpg", "descripcion": "Poner algo"},
+    {"id": 5, "nombre": "Placa de video", "tipo": "Componente", "precio": 300000, "cantidad": 1, "imagen": "./public/assets/images/pc.jpg", "descripcion": "Placa de video"},
+    {"id": 6, "nombre": "Memoria RAM", "tipo": "Componente", "precio": 8000, "cantidad": 1, "imagen": "./public/assets/images/pc.jpg", "descripcion": "Poner algo"},
+    {"id": 7, "nombre": "Fuente", "tipo": "Componente", "precio": 24000, "cantidad": 1, "imagen": "./public/assets/images/pc.jpg", "descripcion": "Poner algo"},
+    {"id": 8, "nombre": "Procesador", "tipo": "Componente", "precio": 54000, "cantidad": 1, "imagen": "./public/assets/images/pc.jpg", "descripcion": "Poner algo"}
+]

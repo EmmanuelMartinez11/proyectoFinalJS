@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" href="./public/styles/styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Titulo tienda</h1>
+        <div>
+            <button class="verCarrito" id="verCarrito">
+                <i class="bi bi-cart"></i>
+                <p id="cantidadCarrito" class="cantidadCarrito">0</p>
+            </button>
+        </div>
+    </header>
+
+
+    <aside class="aside">
+            
+        <ul class="buscadores">
+            <li class="li">
+                <button id="todos" class="buscador"></i>Todos los productos</button>
+            </li>
+            <li class="li">
+                <button id="precioMenor" class="buscador"><i class="bi bi-arrow-down"></i> Ordenar por menor precio</button>
+            </li>
+            <li class="li">
+                <button id="precioMayor" class="buscador"><i class="bi bi-arrow-up"></i> Ordenar por mayor precio</button>
+            </li>
+            <li class="li">
+                <button id="perifericos" class="buscador"><i class="bi bi-headphones"></i> Periféricos</button>
+            </li class="li">
+            <li>
+                <button id="componentes" class="buscador"><i class="bi bi-pc"></i> Componentes</button>
+            </li>
+        </ul>
+        
+    </aside>
+
+    <main id="productoContainer">
+        
+        
+    </main>
+
+
+    <div id="modalContainer" class="modalContainer">
+    </div>
+
+
+
+    <script src="./apps/filter/filtros.js"></script>
+    <script src="./apps/cart/carrito.js"></script>
+    <script src="./apps/main.js"></script>
+</body>
+</html>

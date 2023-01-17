@@ -1,0 +1,2 @@
+pedirPosts()
+carritoContador()
